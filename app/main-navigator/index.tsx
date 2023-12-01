@@ -16,6 +16,8 @@ import OtpScreen from "../screens/otp"
 import tabnavigation from "./bottomtab-navigation"
 import donationmethod from "../screens/donationmethod"
 import addCards from "../screens/addcards"
+import searchmovie from "../screens/searchmovie"
+import movieDetail from "../screens/movieDetail"
 
 const Stack = createNativeStackNavigator()
 
@@ -44,6 +46,8 @@ const MyStack = () => {
                     <Stack.Screen name={ROUTES_NAMES.myLateComings} component={MyLateComings} />
                     <Stack.Screen name={ROUTES_NAMES.hrDashboard} component={hrDashboard} />
                     <Stack.Screen name={ROUTES_NAMES.userDetail} component={UserDetail} />
+                    <Stack.Screen name={ROUTES_NAMES.searchScreen} component={searchmovie} />
+                    <Stack.Screen name={ROUTES_NAMES.detailscreen} component={movieDetail} />
                 </Stack.Navigator>
             </NavigationContainer>
         </Provider>

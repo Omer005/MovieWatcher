@@ -19,7 +19,9 @@ export const ROUTES_NAMES = {
     myAbsents:"myAbsents",
     myLateComings:"myLateComings",
     hrDashboard:"hrDashboard",
-    userDetail:"userDetail"
+    userDetail:"userDetail",
+    searchScreen:"searchScreen",
+    detailscreen:"detailscreen"
 
 }
 
