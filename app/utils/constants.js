@@ -21,7 +21,9 @@ export const ROUTES_NAMES = {
     hrDashboard:"hrDashboard",
     userDetail:"userDetail",
     searchScreen:"searchScreen",
-    detailscreen:"detailscreen"
+    detailscreen:"detailscreen",
+    trailer:"trailer",
+    tickets:"tickets",
 
 }
 

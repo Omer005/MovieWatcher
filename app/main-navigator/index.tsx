@@ -18,6 +18,8 @@ import donationmethod from "../screens/donationmethod"
 import addCards from "../screens/addcards"
 import searchmovie from "../screens/searchmovie"
 import movieDetail from "../screens/movieDetail"
+import Trailer from "../screens/Trailer"
+import ticketsmaping from "../screens/ticketsmaping"
 
 const Stack = createNativeStackNavigator()
 
@@ -48,6 +50,8 @@ const MyStack = () => {
                     <Stack.Screen name={ROUTES_NAMES.userDetail} component={UserDetail} />
                     <Stack.Screen name={ROUTES_NAMES.searchScreen} component={searchmovie} />
                     <Stack.Screen name={ROUTES_NAMES.detailscreen} component={movieDetail} />
+                    <Stack.Screen name={ROUTES_NAMES.trailer} component={Trailer} />
+                    <Stack.Screen name={ROUTES_NAMES.tickets} component={ticketsmaping} />
                 </Stack.Navigator>
             </NavigationContainer>
         </Provider>
